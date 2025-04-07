@@ -30,9 +30,6 @@
 
 ;;; Code:
 
-(provide 'fade-in-mode)
-;;; fade-in-mode.el ends here
-
 (require 'color)
 
 (defgroup fade-in nil
