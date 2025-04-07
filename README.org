@@ -1,0 +1,42 @@
+#+TITLE: fade-in.el
+#+AUTHOR: pirminj
+
+* Overview
+
+Make your text fade in smoothly. Works well when generating text with [[https://github.com/karthink/gptel][gptel]].
+
+* Installation
+
+#+begin_src emacs-lisp
+(use-package fade-in
+  :vc (:url "https://github.com/pirminj/fade-in.el.git" :rev :newest)
+  :hook (gptel-mode . fade-in-mode))
+#+end_src
+
+* Usage
+
+Enable =fade-in-mode= in specific buffers:
+
+#+begin_src emacs-lisp
+(fade-in-mode 1)
+#+end_src
+
+* Configuration
+
+#+begin_src emacs-lisp
+;; Number of animation steps (default: 10)
+(setq fade-in-steps 15)
+
+;; Animation duration in seconds (default: 0.2)
+(setq fade-in-duration 0.3)
+
+;; Modes where fade-in should be ignored
+(setq fade-in-excluded-modes
+      '(minibuffer-mode eshell-mode term-mode vterm-mode))
+#+end_src
+
+* License
+
+GPL-3.0
+
+
