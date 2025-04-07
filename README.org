@@ -1,8 +1,6 @@
 #+TITLE: fade-in.el
 #+AUTHOR: pirminj
 
-* Overview
-
 Make your text fade in smoothly. Works well when generating text with [[https://github.com/karthink/gptel][gptel]].
 
 * Installation
