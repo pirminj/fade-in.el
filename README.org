@@ -4,7 +4,7 @@
 Make your text fade in smoothly. Works well when generating text with [[https://github.com/karthink/gptel][gptel]].
 
 #+html: <p align="center">
-![](https://github.com/pirminj/fade-in.el/blob/main/demo.gif)
+![demo](./demo.gif)
 #+html: </p>
 
 * Installation
