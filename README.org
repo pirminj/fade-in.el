@@ -3,6 +3,8 @@
 
 Make your text fade in smoothly. Works well when generating text with [[https://github.com/karthink/gptel][gptel]].
 
+![Demo](./demo.gif)
+
 * Installation
 
 #+begin_src emacs-lisp
