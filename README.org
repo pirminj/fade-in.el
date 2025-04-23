@@ -5,7 +5,7 @@ Make your text fade in smoothly. Works well when generating text with [[https://
 
 
 
-![Demo](https://github.com/pirminj/fade-in.el/blob/main/demo.gif)
+https://github.com/pirminj/fade-in.el/blob/main/demo.gif
 
 * Installation
 
